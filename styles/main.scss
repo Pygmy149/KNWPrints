@@ -1,0 +1,17 @@
+@import "vendor/normalize";
+@import "partials/_variables";
+
+h1, 
+h3 {font-family:$heading_primary_font;}
+
+h2{font-family:$heading_secondary_font;}
+
+.main-hero {background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.heading {margin-bottom: 200px;
+text-align: center;}
