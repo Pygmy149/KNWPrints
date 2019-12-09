@@ -6,7 +6,7 @@ h3 {font-family:$heading_primary_font;}
 
 h2{font-family:$heading_secondary_font;}
 
-.main-hero {background-size: cover;
+.section-hero {background-size: cover;
     background-position: center;
     min-height: 60vh;
     display: flex;
@@ -15,3 +15,27 @@ h2{font-family:$heading_secondary_font;}
 
 .heading {margin-bottom: 200px;
 text-align: center;}
+{
+	margin: 0;
+	background: #e6e6ff;
+	font-family: Californian FB;
+}
+h1 {font-size: 78;
+	background: #ffb3d9;
+color:#black;}
+
+h4 {background: #e6ffff;
+	margin: 0;
+	color:black;
+font-size: 24;}
+h3 {font-size: 38;
+	color:#4d2800;}
+h5 {font-size: 20}
+nav {font-size: 20;
+color:#4d2800;}
+footer {
+	font-size: 15;
+color: #4d2800;}
+p {font-size: 20;}
+img {max-width: 480px
+}
