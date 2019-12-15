@@ -1,32 +1,30 @@
 @import "vendor/normalize";
 @import "partials/_variables";
 
-h1, 
-h3 {font-family:$heading_primary_font;}
-
-h2{font-family:$heading_secondary_font;}
+h1
 
 .section-hero {background-size: cover;
     background-position: center;
     min-height: 60vh;
-    display: flex;
+	display: flex;
     justify-content: center;
     align-items: center;}
 
 .heading {margin-bottom: 200px;
-text-align: center;}
-{
-	margin: 0;
-	background: #e6e6ff;
-	font-family: Californian FB;
+text-align: center;
+margin: 0;
+	background: #ececec;
+	
 }
 h1 {font-size: 78;
 	background: #ffb3d9;
-color:#black;}
+color:#4d2800;
+font-family: "Times New Roman", Times, serif;
+}
 
 h4 {background: #e6ffff;
 	margin: 0;
-	color:black;
+	color:#4d2800;
 font-size: 24;}
 h3 {font-size: 38;
 	color:#4d2800;}
@@ -39,3 +37,5 @@ color: #4d2800;}
 p {font-size: 20;}
 img {max-width: 480px
 }
+
+  

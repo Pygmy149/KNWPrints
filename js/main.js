@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+alert('script is working')
 $("#button").click(function () {
 $('#title').addClass('hide');
 });
